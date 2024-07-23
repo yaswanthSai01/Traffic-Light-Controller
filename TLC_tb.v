@@ -18,8 +18,10 @@ module TLC_tb;
     .side_road(side)
   );
 
+  initial begin
   // Clock Generation
-  always #5 clk = ~clk; // Toggle clock every 5 time units
+  forever #5 clk = ~clk; // Toggle clock every 5 time units
+    end
 
   // Initial Stimulation
   initial begin
