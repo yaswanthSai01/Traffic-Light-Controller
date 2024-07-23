@@ -20,6 +20,7 @@ module TLC_tb;
 
   initial begin
   // Clock Generation
+    clk = 1'b0;
   forever #5 clk = ~clk; // Toggle clock every 5 time units
     end
 
