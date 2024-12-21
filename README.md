@@ -1,4 +1,3 @@
-```markdown
 # 🛖 Traffic Light Controller in Verilog 🛖
 
 ## Overview 📋
